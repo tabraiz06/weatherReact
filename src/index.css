@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+NavLink:active{
+    color: rgb(190, 122, 38);
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left; 
+   
+}
+.col img{
+    width: 120px;
+    margin-right: 10px;
+}
+.container img{
+    animation: animate infinite  0.8s ease  ;
+        }
+        @keyframes animate {
+        0%{
+                transform: rotate(360deg);
+            }
+            
+        }
+

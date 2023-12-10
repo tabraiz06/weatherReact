@@ -1,0 +1,42 @@
+@media (max-width:755px) and (min-width:360px) {
+   .main{
+    margin: 0;
+    align-items: center;
+    
+   }
+
+   input{
+    width: 300px;
+   }
+    img{
+width: 140px;
+    }
+    .col img{
+        width: 56px;
+    }
+    .col h2{
+        font-size: 2rem;
+    }
+    .col p{
+        font-size: 2rem;
+    }
+    .search{
+        padding: 1rem;
+    }
+    .container{
+        text-align: center;
+    }
+    .container h2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .container img{
+animation: animate infinite  0.8s ease  ;
+    }
+    @keyframes animate {
+    0%{
+            transform: rotate(360deg);
+        }
+        
+    }
+}
